@@ -3,7 +3,7 @@ from django.http import JsonResponse
 import google.generativeai as genai
 
 # Configure the Gemini API with your API key
-GEMINI_API_KEY = 'AIzaSyB2MKrVeSXYi2N7VR4FhIDApZo8OZzNBMw'
+GEMINI_API_KEY = ''
 genai.configure(api_key=GEMINI_API_KEY)
 
 def askai(message):
